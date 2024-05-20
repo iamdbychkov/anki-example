@@ -4,7 +4,7 @@ import random
 import textwrap
 
 
-cards: list[dict] = []
+CARDS: list[dict] = []
 
 
 def add_card(word: str, translation: str) -> None:
